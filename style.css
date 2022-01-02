@@ -1,0 +1,38 @@
+/* resetStyles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+#header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 30px;
+    width: 140px;
+}
+.listUl{
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+}
+.listUl li{
+    margin-left: 20px;
+}
+.menuRight{
+    display: flex;
+    align-items: center;
+}
+.imageProfile{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
