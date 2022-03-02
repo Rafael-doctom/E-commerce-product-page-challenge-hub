@@ -12,6 +12,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -20,34 +21,42 @@
     border-bottom: 1px solid rgba(182,188,200,.35);
     margin: auto;
 }
+
 .divLeft{
     display: flex;
     align-self: center;
 }
+
 .logo {
     width: 140px;
     cursor:pointer;
 }
+
 .listUl{
     display: flex;
     list-style: none;
     margin-left: 40px;
 }
+
 .listUl li{
     cursor:pointer;
     margin-left: 20px;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
 .listUl li:hover{
     border-bottom:1px solid hsl(26, 100%, 55%);
 }
+
 .divCart{
     cursor: pointer;
 }
+
 .menuRight{
     display: flex;
     align-items: center;
 }
+
 .imageProfile{
     height: 50px;
     width: 50px;
@@ -62,16 +71,28 @@
     width: 1300px;
     margin: auto;
 }
+
 .flexProducts{
     display: flex;
+    margin: 3rem 0;
 }
-.imageResult{
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
+
+.imageResult img{
+    width: 25vw;
+    height: 55vh;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.flexProducts img{
+    width: 7vw;
+    height: 13vh;   
     background-size: cover;
     background-position: 50%;
+    margin:0 0.4rem;
+    cursor: pointer;
 }
-.flexProducts img{
-    width: 100px;
+
+.attribution{
+    margin: 10rem auto;
 }
