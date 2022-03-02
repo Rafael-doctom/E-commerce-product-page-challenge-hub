@@ -1,18 +1,31 @@
 var result = document.getElementById("result")
 
 const nextImage1 = () => {
-    var image1 = document.getElementById("image1")
-    result.innerHTML = `<img src="images/image-product-1-thumbnail.jpg">`
+    result.innerHTML = `
+    <div id="result" class="imageResult">
+        <img src="images/image-product-1.jpg">
+    </div>
+   `
 }
 const nextImage2 = () => {
-    var image1 = document.getElementById("image1")
-    result.innerHTML = `<img src="images/image-product-2-thumbnail.jpg">`
+    result.innerHTML = `
+    <div id="result" class="imageResult">
+        <img src="images/image-product-2.jpg">
+    </div>
+    `
 }
 const nextImage3 = () => {
-    var image1 = document.getElementById("image1")
-    result.innerHTML = `<img src="images/image-product-3-thumbnail.jpg" >`
+    result.innerHTML = `
+    <div id="result" class="imageResult">
+        <img src="images/image-product-3.jpg" >
+    </div>
+
+    `
 }
 const nextImage4 = () => {
-    var image1 = document.getElementById("image1")
-    result.innerHTML = `<img src="images/image-product-4-thumbnail.jpg" >`
+    result.innerHTML = `
+    <div id="result" class="imageResult">
+        <img src="images/image-product-4.jpg" >
+    </div>
+    `
 }
